@@ -3,7 +3,6 @@ version: '3.4'
 networks: 
   kong-net:
     driver: bridge
-  keycloak-net:
 
 volumes:
   kong-datastore:
